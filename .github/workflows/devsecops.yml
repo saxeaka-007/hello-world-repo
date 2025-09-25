@@ -22,7 +22,7 @@ jobs:
 
       - name: Fetch central config
         run: |
-          curl -sSL https://raw.githubusercontent.com/org/devsecops-hooks/main/.pre-commit-config.yaml -o .pre-commit-config.yaml
+          curl -sSL https://raw.githubusercontent.com/saxeaka-007/Github-Cert/refs/heads/main/.pre-commit-config.yaml -o .pre-commit-config.yaml
 
       - name: Run DevSecOps hooks on PR changes only
         env:
